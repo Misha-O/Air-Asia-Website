@@ -36,8 +36,8 @@ body {
 }
 .main-page-wrapper {
   background: url(/images/bg/hero.jpg) center top no-repeat,
-    #001821 center center no-repeat;
-  /* url(/images/bg/middleline.jpg) center no-repeat; */
+    #001821 right top no-repeat;
+  /* url(/images/bg/middleline.jpg) center bottom no-repeat; */
 }
 .btn {
   display: block;
