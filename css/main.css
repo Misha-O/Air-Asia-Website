@@ -126,7 +126,7 @@ a {
   margin-top: 4px;
   font-size: 13px;
   text-decoration: underline;
-  color: #dfb56d;
+  color: #98a4a8;
 }
 /* main section */
 .info {
@@ -165,7 +165,7 @@ a {
   min-height: 440px;
   background: #ffffff;
   color: #666666;
-  border-radius: 0px 0px 5px 5px;
+  border-radius: 5px;
   margin-right: 27px;
   vertical-align: top;
 }
@@ -214,19 +214,27 @@ a {
 .tours__descr {
   margin-bottom: 23px;
 }
-.tours__btn--color-white {
+.btn--color-white {
   margin-bottom: 26px;
   background-color: #ffffff;
   padding: 16px 31px;
   color: #f5170e;
   border: 1px solid #f5170e;
 }
-.tours__btn--color-red {
+.btn--color-white:hover {
+  background: #2b2b2b;
+}
+.btn--color-red {
   margin-bottom: 26px;
   background-color: #f5170e;
   padding: 16px 31px;
   color: #ffffff;
 }
+.btn--color-red:hover {
+  background: #da0100;
+  box-shadow: 0px 2px 4px rgba(218, 1, 0, 0.3);
+}
+
 /* news */
 .news__container {
   margin-left: 0;
@@ -301,9 +309,6 @@ a {
 .paginator__item--active .paginator__link {
   color: #f5170e;
   background: #ffffff;
-  border-radius: 50%;
-  font-weight: 700;
-  line-height: 32px;
 }
 .paginator__link {
   display: block;
@@ -313,13 +318,12 @@ a {
   position: relative;
   text-decoration: none;
   font-weight: 700;
+  line-height: 32px;
+  transition: 0.4s;
 }
 .paginator__link:hover {
   color: #f5170e;
   background: #ffffff;
-  border-radius: 50%;
-  font-weight: 700;
-  line-height: 32px;
 }
 /* about */
 .abtus__container {
@@ -403,6 +407,7 @@ a {
   height: 36px;
   text-decoration: none;
   border-radius: 50%;
+  transition: 0.3s;
 }
 .social__item-icn-tg .social__link {
   background-image: url("/images/icons/socials/t.png");
