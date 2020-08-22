@@ -18,6 +18,13 @@ h5 {
 ul li {
   list-style: none;
 }
+a {
+  text-decoration: none;
+}
+.container {
+  width: 1920;
+  margin: 0 auto;
+}
 /* page style */
 body {
   color: #ffffff;
@@ -30,7 +37,7 @@ body {
 .main-page-wrapper {
   background: url(/images/bg/hero.jpg) center top no-repeat,
     #001821 center center no-repeat;
-  /* url(/images/bg/middleline.jpg) bottom right no-repeat; */
+  /* url(/images/bg/middleline.jpg) center no-repeat; */
 }
 .btn {
   display: block;
@@ -126,7 +133,7 @@ a {
   min-height: 340px;
   width: 515px;
   justify-content: center;
-  margin-left: 291px;
+  margin-left: 0;
   margin-bottom: 172px;
 }
 .info__title {
@@ -144,7 +151,7 @@ a {
 /* tours section */
 .tours {
   min-height: 550px;
-  margin-left: 291px;
+  margin-left: 0;
   margin-bottom: 74px;
   font-size: 14px;
   color: #303030;
@@ -222,7 +229,7 @@ a {
 }
 /* news */
 .news__container {
-  margin-left: 290px;
+  margin-left: 0;
 }
 .news__elm {
   margin-bottom: 14px;
@@ -280,7 +287,7 @@ a {
 /* paginator */
 .paginator {
   text-align: center;
-  margin-bottom: 125px;
+  margin-bottom: 130px;
 }
 .paginator__current,
 .paginator__list {
@@ -289,7 +296,7 @@ a {
 }
 .paginator__item {
   display: inline-block;
-  padding: 0 20px;
+  padding: 0 0;
 }
 .paginator__item--active .paginator__link {
   color: #f5170e;
@@ -316,21 +323,21 @@ a {
 }
 /* about */
 .abtus__container {
-  margin-left: 290px;
+  margin-left: 0;
 }
 .abtus__container:before {
   content: "";
-  width: 449px;
+  width: 444px;
   height: 463px;
   background: url("/images/decor/gates.jpg") center center / cover no-repeat;
   border-radius: 5px;
 }
 .abtus__section {
   background: url("/images/decor/mountains.jpg") center center / cover no-repeat;
-  width: 678px;
-  height: 453px;
+  width: 710px;
+  height: 413px;
   object-fit: cover;
-  margin: -400px 355px;
+  margin: -365px 327px;
   vertical-align: middle;
   border-radius: 5px;
 }
@@ -344,8 +351,8 @@ a {
   font-size: 36px;
   font-weight: 700;
   color: #000000;
-  padding-top: 113px;
-  padding-left: 63px;
+  padding-top: 74px;
+  padding-left: 55px;
   margin-bottom: 40px;
 }
 .abtus__text {
@@ -356,7 +363,7 @@ a {
 }
 .abtus__section button {
   margin-top: 43px;
-  margin-left: 81px;
+  margin-left: 62px;
 }
 .abtus__text p:last-child {
   margin-bottom: 0;
@@ -365,8 +372,8 @@ a {
 .footer {
   position: relative;
   height: 150px;
-  margin-top: 83px;
-  margin-left: 297px;
+  margin-top: 78px;
+  margin-left: 0;
   padding-top: 0;
 }
 .footer__container-content {
@@ -374,8 +381,8 @@ a {
 }
 .social__list {
   position: absolute;
-  top: 50px;
-  right: 700px;
+  top: 31px;
+  right: 318px;
   background: center center no-repeat;
 }
 .contacts__text {
@@ -387,7 +394,7 @@ a {
   vertical-align: middle;
   margin-right: 10px;
 }
-..social__item:last-child {
+.social__item:last-child {
   margin-right: 0;
 }
 .social__link {
@@ -420,4 +427,9 @@ a {
 }
 .social__item-icn-insta .social__link:hover {
   background-image: url("/images/icons/socials/in2.png");
+}
+.footer .contacts {
+  position: absolute;
+  top: 12px;
+  right: 54px;
 }
