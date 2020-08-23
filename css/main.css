@@ -1,12 +1,12 @@
 /* main page style reset */
 * {
   box-sizing: border-box;
-  margin: 0;
-  padding: 0;
+  /* margin: 0;
+  padding: 0; */
 }
-body {
-  height: 100vh;
+html {
   width: 100%;
+  height: 100%;
 }
 h1,
 h2,
@@ -14,6 +14,11 @@ h3,
 h4,
 h5 {
   font-weight: normal;
+  margin: 0;
+}
+ul {
+  margin: 0;
+  padding: 0;
 }
 ul li {
   list-style: none;
@@ -27,10 +32,11 @@ a {
 }
 /* page style */
 body {
+  margin: 0;
   color: #ffffff;
   font-size: 16px;
   line-height: 1.42em;
-  font: "Open Sans", Helvetica, sans-serif;
+  font-family: "Open Sans", Helvetica, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
@@ -38,9 +44,10 @@ body {
   background: url(/images/bg/hero.jpg) center top no-repeat,
     #001821 right top no-repeat;
   /* url(/images/bg/middleline.jpg) center bottom no-repeat; */
+  overflow: hidden;
 }
 .btn {
-  display: block;
+  display: inline-block;
   background-color: #f5170e;
   border-radius: 35px;
   padding: 16px 31px;
@@ -55,22 +62,17 @@ body {
 /* position navbar relative to top header */
 .container {
   margin: 0 auto;
-  min-height: 124px;
   width: 1141px;
 }
 .header {
   position: relative;
   min-height: 125px;
-  margin-bottom: 77px;
+  margin-bottom: 75px;
 }
 .logo {
   display: block;
   position: absolute;
   top: 30px;
-  left: 0px;
-  /* background-image: url("/images/Air_Asia-logo.png");
-  background-repeat: no-repeat;
-  background-size: contain; */
 }
 .logo__img {
   height: 36px;
@@ -90,6 +92,9 @@ a {
   position: absolute;
   top: 28px;
   right: 104px;
+  font-size: 26px;
+  font-style: normal;
+  text-align: right;
 }
 .navbar__list {
   font-size: 14px;
@@ -112,14 +117,7 @@ a {
 .navbar__link {
   text-decoration: none;
 }
-.contacts {
-  height: 35px;
-  width: 191px;
-  font-size: 26px;
-  font-style: normal;
-  text-align: right;
-}
-.contact__tel {
+.contacts__tel {
   text-decoration: none;
 }
 .contacts__dropmenu {
@@ -137,11 +135,11 @@ a {
   margin-bottom: 172px;
 }
 .info__title {
+  margin: 0;
   font-size: 72px;
   font-weight: 700;
   line-height: 1.1em;
   margin-bottom: 20px;
-  letter-spacing: 2px;
 }
 .info__text {
   font-size: 18px;
@@ -150,9 +148,8 @@ a {
 }
 /* tours section */
 .tours {
-  min-height: 550px;
   margin-left: 0;
-  margin-bottom: 74px;
+  margin-bottom: 98px;
   font-size: 14px;
   color: #303030;
 }
@@ -208,14 +205,10 @@ a {
   font-size: 16px;
   padding-left: 10px;
 }
-.tours__details:nth-child(odd) {
-  margin-left: 25px;
-}
 .tours__descr {
   margin-bottom: 23px;
 }
 .btn--color-white {
-  margin-bottom: 26px;
   background-color: #ffffff;
   padding: 16px 31px;
   color: #f5170e;
@@ -225,7 +218,6 @@ a {
   background: #2b2b2b;
 }
 .btn--color-red {
-  margin-bottom: 26px;
   background-color: #f5170e;
   padding: 16px 31px;
   color: #ffffff;
@@ -251,16 +243,16 @@ a {
   margin-bottom: 51px;
 }
 .news__item {
-  width: 510px;
-  padding: 0 25px;
+  width: 500px;
+  margin: 0 9px;
   display: inline-block;
   vertical-align: top;
   position: relative;
   border-radius: 5px;
   overflow: hidden;
 }
-.news__item:nth-child(even) {
-  padding-right: 0px;
+.news__item:last-child {
+  margin-right: 0px;
 }
 .news__img {
   display: block;
@@ -295,7 +287,7 @@ a {
 /* paginator */
 .paginator {
   text-align: center;
-  margin-bottom: 130px;
+  margin-bottom: 136px;
 }
 .paginator__current,
 .paginator__list {
@@ -341,7 +333,9 @@ a {
   width: 710px;
   height: 413px;
   object-fit: cover;
-  margin: -365px 327px;
+  margin-top: 96px;
+  margin-left: -121px;
+  /* margin: -365px 327px; */
   vertical-align: middle;
   border-radius: 5px;
 }
@@ -355,19 +349,19 @@ a {
   font-size: 36px;
   font-weight: 700;
   color: #000000;
-  padding-top: 74px;
-  padding-left: 55px;
+  padding-top: 76px;
+  padding-left: 86px;
   margin-bottom: 40px;
 }
 .abtus__text {
   width: 500px;
   color: #060606;
-  padding-top: 28px;
-  padding-left: 81px;
+  padding-top: 0;
+  padding-left: 88px;
 }
 .abtus__section button {
-  margin-top: 43px;
-  margin-left: 62px;
+  margin-top: 47px;
+  margin-left: 89px;
 }
 .abtus__text p:last-child {
   margin-bottom: 0;
@@ -376,7 +370,7 @@ a {
 .footer {
   position: relative;
   height: 150px;
-  margin-top: 78px;
+  margin-top: 56px;
   margin-left: 0;
   padding-top: 0;
 }
@@ -390,6 +384,7 @@ a {
   background: center center no-repeat;
 }
 .contacts__text {
+  width: 191px;
   color: #9a9a9a;
   font-size: 11px;
 }
@@ -436,5 +431,5 @@ a {
 .footer .contacts {
   position: absolute;
   top: 12px;
-  right: 54px;
+  right: 0;
 }
