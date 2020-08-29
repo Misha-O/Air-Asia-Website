@@ -11,6 +11,11 @@
   justify-content: space-between;
   align-items: center;
 }
+/* index style */
+.header--index {
+  margin-bottom: 100px;
+}
+/* index style ends */
 .header-services {
   margin-bottom: 16px;
 }
