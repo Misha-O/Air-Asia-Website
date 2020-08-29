@@ -6,13 +6,15 @@
   content: "";
   width: 485px;
   height: 502px;
-  background: url("/images/decor/gates.jpg") center center / cover no-repeat;
+  background: url("../../images/decor/gates.jpg") center center / cover
+    no-repeat;
   border-radius: 5px;
   display: block;
 }
 .abtus__block {
   max-width: 780px;
-  background: url("/images/decor/mountains.jpg") center center / cover no-repeat;
+  background: url("../../images/decor/mountains.jpg") center center / cover
+    no-repeat;
   margin-top: 106px;
   margin-left: -125px;
   padding: 70px 80px;
