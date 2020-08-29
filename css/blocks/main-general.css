@@ -12,7 +12,7 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 .wrapper {
-  background: url("images/bg/hero.jpg") center top no-repeat,
+  background: url("./images/bg/hero.jpg") center top no-repeat,
     url("images/bg/bottom-pic.jpg") center bottom no-repeat,
     #001821 center center no-repeat;
   overflow: hidden;
