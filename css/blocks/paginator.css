@@ -6,6 +6,7 @@
 }
 .paginator--theme--dark {
   color: #000000;
+  margin-bottom: 7px;
 }
 .paginator__current {
   margin-right: 20px;
