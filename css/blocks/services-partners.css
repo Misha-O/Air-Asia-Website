@@ -1,0 +1,35 @@
+.partners {
+  background: #f4f5f5;
+  color: #1a1b1e;
+  padding: 90px 0;
+}
+.partners__title {
+  font-size: 48px;
+  line-height: 1.3;
+  font-weight: 700;
+  color: #1a1b1e;
+  margin-bottom: 95px;
+}
+.partners__list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+}
+.partners__item {
+  margin-left: 80px;
+}
+.partners__item:nth-child(4n + 1) {
+  margin-left: 0;
+}
+.partners__link {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 200px;
+  height: 60px;
+  filter: grayscale(100%);
+}
+.partners__link:hover {
+  filter: grayscale(0);
+}

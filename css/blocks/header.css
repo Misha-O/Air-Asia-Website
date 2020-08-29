@@ -1,0 +1,46 @@
+.hero__container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  min-height: 550px;
+}
+.header {
+  margin-top: 30px;
+  margin-bottom: 140px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.header-services {
+  margin-bottom: 16px;
+}
+.header__col {
+  display: flex;
+  align-items: center;
+}
+.header__col--align--right {
+  align-items: flex-end;
+}
+.logo {
+  display: block;
+  margin-right: 80px;
+}
+.logo__img {
+  height: 36px;
+  width: 96px;
+  background-size: contain;
+}
+/* services page */
+.top-line {
+  min-height: 412px;
+  background: url(/images/bg/headline.jpg) center top no-repeat;
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 25px;
+}
+.top-line-container {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  justify-content: space-between;
+}

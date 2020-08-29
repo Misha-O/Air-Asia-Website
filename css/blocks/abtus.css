@@ -1,0 +1,39 @@
+.abtus__section {
+  border-radius: 5px;
+  display: flex;
+}
+.abtus__section:before {
+  content: "";
+  width: 485px;
+  height: 502px;
+  background: url("/images/decor/gates.jpg") center center / cover no-repeat;
+  border-radius: 5px;
+  display: block;
+}
+.abtus__block {
+  max-width: 780px;
+  background: url("/images/decor/mountains.jpg") center center / cover no-repeat;
+  margin-top: 106px;
+  margin-left: -125px;
+  padding: 70px 80px;
+}
+.abtus__title {
+  font-size: 36px;
+  font-weight: 700;
+  color: #000000;
+  padding-top: 14px;
+  padding-left: 14px;
+  margin-bottom: 40px;
+}
+.abtus__text {
+  width: 620px;
+  color: #060606;
+  padding-left: 17px;
+}
+.abtus__section button {
+  margin-top: 50px;
+  margin-left: 19px;
+}
+.abtus__text p:last-child {
+  margin-bottom: 0;
+}

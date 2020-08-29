@@ -1,0 +1,15 @@
+.title .container {
+  display: flex;
+  flex-flow: column nowrap;
+}
+section.title {
+  margin-bottom: 64px;
+}
+.title__elm {
+  margin-bottom: 97px;
+}
+.title__subtitle {
+  font-size: 72px;
+  font-weight: 700;
+  line-height: 98px;
+}

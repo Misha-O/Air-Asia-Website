@@ -1,0 +1,22 @@
+.navbar {
+  width: 265px;
+}
+.navbar__list {
+  display: flex;
+  flex: 1;
+  justify-content: space-between;
+  font-size: 14px;
+  color: #ffffff;
+}
+.navbar__item:last-child {
+  margin-right: 0;
+}
+.navbar__item--active .navbar__link {
+  color: red;
+}
+.navbar__item:hover {
+  color: #dfb56d;
+}
+.navbar__link {
+  text-decoration: none;
+}
