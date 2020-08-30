@@ -1,12 +1,15 @@
 .page-content {
   background: #f2f2f2;
   color: #303030;
-  padding: 85px 0;
+  padding: 103px 0;
   padding-bottom: 50px;
 }
 .activities {
   display: flex;
   flex-flow: column nowrap;
+  margin-bottom: 65px;
+  min-height: 713px; /* image test solution */
+  justify-content: space-between;
 }
 .activities__item {
   display: flex;
@@ -34,4 +37,5 @@
   height: 100%;
   width: 100%;
   object-fit: cover;
+  max-height: 330px; /*img height test solution*/
 }
