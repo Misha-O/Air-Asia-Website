@@ -1,0 +1,15 @@
+.services .container {
+  display: flex;
+  flex-flow: column nowrap;
+}
+section.services {
+  margin-bottom: 64px;
+}
+.services__elm {
+  margin-bottom: 97px;
+}
+.services__title {
+  font-size: 72px;
+  font-weight: 700;
+  line-height: 1;
+}

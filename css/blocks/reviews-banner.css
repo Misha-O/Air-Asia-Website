@@ -1,0 +1,19 @@
+.wrapper section.banner {
+  width: 100%;
+  background: url(../../images/bg/middleline.jpg) bottom no-repeat;
+  background-size: cover;
+}
+.banner .container {
+  margin: 0 auto;
+}
+.bottom--content {
+  display: flex;
+  flex: 1;
+  justify-content: space-between;
+  align-items: center;
+}
+.banner__title {
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 1.3;
+}
