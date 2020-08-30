@@ -7,11 +7,9 @@
 .activities {
   display: flex;
   flex-flow: column nowrap;
-  /* margin-top: 86px; */
 }
 .activities__item {
   display: flex;
-  padding-top: 18px;
 }
 
 .activities__img {
