@@ -8,16 +8,17 @@
   display: flex;
   flex-flow: column nowrap;
   margin-bottom: 65px;
-  min-height: 713px; /* image test solution */
-  justify-content: space-between;
 }
 .activities__item {
   display: flex;
 }
-
+.activities__item:nth-child(2) {
+  margin-top: 50px;
+}
 .activities__img {
   width: 40%;
   margin-right: 5%;
+  max-height: 330px; /*img height test solution*/
 }
 .activities__content {
   flex: 1;
@@ -32,10 +33,10 @@
 }
 .activities__text {
   margin-bottom: 37px;
+  line-height: 1.7;
 }
 .activities__img-block {
   height: 100%;
   width: 100%;
   object-fit: cover;
-  max-height: 330px; /*img height test solution*/
 }
