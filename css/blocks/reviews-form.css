@@ -1,7 +1,15 @@
-.form {
+.container.form {
   color: #1a1b1e;
 }
 .form__title {
+  margin: 60px 0;
   font-size: 48px;
   font-weight: 700;
+}
+form {
+  display: flex;
+  flex-flow: column wrap;
+}
+input {
+  width: calc(100% / 2 - 25px);
 }

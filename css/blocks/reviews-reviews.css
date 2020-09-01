@@ -54,9 +54,11 @@
 }
 .reviews__text {
   color: #818181;
+  line-height: 1.7;
 }
 .reviews__subtitle {
   font-size: 30px;
+  line-height: 1.4;
   font-weight: 700;
   text-align: center;
 }
