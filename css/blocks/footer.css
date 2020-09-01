@@ -16,17 +16,21 @@
 .footer__col--align--right {
   justify-content: flex-end;
 }
-.footer .container {
+/* .footer .container {
   border-top: 1px solid rgba(255, 255, 255, 0.1);
   justify-content: space-between;
-}
+} */
 .footer {
   background: #001821;
   min-height: 150px;
   margin-top: 40px;
 }
-.footer-main {
-  margin-top: 97px;
+.footer-index {
+  display: flex;
+  align-items: flex-end;
+  margin-top: 0;
+  border-top: 1px solid rgba(255, 255, 255, 0.1);
+  padding: 10px;
 }
 /* services page */
 .inner-footer__container {
