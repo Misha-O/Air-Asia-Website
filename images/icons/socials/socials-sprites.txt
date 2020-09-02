@@ -1,0 +1,46 @@
+.bg-t {
+    width: 36px; height: 36px;
+    background: url('css_sprites.png') -10px -10px;
+}
+
+x
+.bg-t2 {
+    width: 36px; height: 36px;
+    background: url('css_sprites.png') -66px -10px;
+}
+
+x
+.bg-vk {
+    width: 36px; height: 36px;
+    background: url('css_sprites.png') -122px -10px;
+}
+
+x
+.bg-vk2 {
+    width: 36px; height: 36px;
+    background: url('css_sprites.png') -178px -10px;
+}
+
+x
+.bg-f {
+    width: 36px; height: 36px;
+    background: url('css_sprites.png') -234px -10px;
+}
+
+x
+.bg-f2 {
+    width: 36px; height: 36px;
+    background: url('css_sprites.png') -290px -10px;
+}
+
+x
+.bg-in {
+    width: 36px; height: 36px;
+    background: url('css_sprites.png') -346px -10px;
+}
+
+x
+.bg-in2 {
+    width: 36px; height: 36px;
+    background: url('css_sprites.png') -402px -10px;
+}
