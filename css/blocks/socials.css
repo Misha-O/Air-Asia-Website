@@ -5,39 +5,61 @@
 
 .socials__item {
   margin-right: 10px;
+  width: 36px;
+  height: 36px;
 }
 .socials__item:last-child {
   margin-right: 0;
 }
 .socials__link {
   display: block;
-  width: 36px;
-  height: 36px;
+  width: 100%;
+  height: 100%;
   text-decoration: none;
   border-radius: 50%;
   transition: 0.3s;
 }
 .socials__item-icn-tg .socials__link {
-  background-image: url("../../images/icons/socials/t.png");
+  background-image: url(../../images/icons/socials/socials-sprites.png);
+  background-repeat: no-repeat;
+  background-position: -10px -10px;
+  transition: 0.4s;
 }
 .socials__item-icn-tg .socials__link:hover {
-  background-image: url("../../images/icons/socials/t2.png");
+  background-image: url(../../images/icons/socials/socials-sprites.png);
+  background-repeat: no-repeat;
+  background-position: -66px -10px;
 }
 .socials__item-icn-vk .socials__link {
-  background-image: url("../../images/icons/socials/vk.png");
+  background-image: url(../../images/icons/socials/socials-sprites.png);
+  background-repeat: no-repeat;
+  background-position: -122px -10px;
+  transition: 0.4s;
 }
 .socials__item-icn-vk .socials__link:hover {
-  background-image: url("../../images/icons/socials/vk2.png");
+  background-image: url(../../images/icons/socials/socials-sprites.png);
+  background-repeat: no-repeat;
+  background-position: -178px -10px;
 }
 .socials__item-icn-fb .socials__link {
-  background-image: url("../../images/icons/socials/f.png");
+  background-image: url(../../images/icons/socials/socials-sprites.png);
+  background-repeat: no-repeat;
+  background-position: -234px -10px;
+  transition: 0.4s;
 }
 .socials__item-icn-fb .socials__link:hover {
-  background-image: url("../../images/icons/socials/f2.png");
+  background-image: url(../../images/icons/socials/socials-sprites.png);
+  background-repeat: no-repeat;
+  background-position: -290px -10px;
 }
 .socials__item-icn-insta .socials__link {
-  background-image: url("../../images/icons/socials/in.png");
+  background-image: url(../../images/icons/socials/socials-sprites.png);
+  background-repeat: no-repeat;
+  background-position: -346px -10px;
+  transition: 0.4s;
 }
 .socials__item-icn-insta .socials__link:hover {
-  background-image: url("../../images/icons/socials/in2.png");
+  background-image: url(../../images/icons/socials/socials-sprites.png);
+  background-repeat: no-repeat;
+  background-position: -402px -10px;
 }

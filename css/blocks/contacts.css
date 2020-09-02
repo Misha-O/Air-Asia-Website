@@ -11,9 +11,36 @@
 .contacts__tel {
   text-decoration: none;
 }
-.contacts__dropmenu {
+.contacts__dropdown {
   margin-top: 4px;
   font-size: 13px;
   text-decoration: underline;
   color: #98a4a8;
+}
+/* contacts hover */
+.contacts__dropdown {
+  position: relative;
+}
+.contacts__dropdown:hover .contacts__dropdown--menu {
+  display: block;
+  opacity: 0.8;
+}
+.contacts__dropdown--menu {
+  position: absolute;
+  top: 100%;
+  left: 20%;
+  background: #cdd1d2;
+  color: #1e1f20;
+  padding: 15px;
+  border-radius: 5px;
+  opacity: 0;
+  transition: opacity 0.4s;
+}
+.contacts__dropdown--item {
+  font-size: 13px;
+  line-height: 1.6;
+  font-weight: 700;
+}
+.lunch {
+  font-weight: 600;
 }
