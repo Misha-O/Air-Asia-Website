@@ -1,7 +1,3 @@
-html,
-body {
-  height: 100%;
-}
 body {
   margin: 0;
   color: #ffffff;
@@ -11,42 +7,51 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
-.wrapper {
-  background: url(../../images/bg/screen.jpg) no-repeat;
-  overflow: hidden;
+.welcome {
   display: flex;
-  flex-direction: column;
-  min-height: 100%;
-}
-.wrapper.welcome {
-  justify-content: center;
-}
-.container {
-  margin: 0 auto;
-  width: 1141px;
-}
-.welcome__content {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
   align-items: center;
-  width: 30%;
-  margin: 0 auto;
+  justify-content: center;
+  background: url(../../images/bg/screen.jpg) no-repeat;
+  background-size: cover;
+  overflow: hidden;
+}
+.welcome__container {
+  width: 100%;
+}
+.central {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   animation: welcome 1s both;
 }
-.logo--welcome {
+.central__shade--wrapper {
+  width: 30%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background: url(../../images/decor/shades.png) no-repeat;
+  background-size: cover;
+}
+.central__block--img {
+  margin: 0 auto;
   width: 280px;
   height: 120px;
-}
-.welcome__title {
-  display: inline-block;
-  margin-bottom: 50px;
 }
 .logo--welcome-img {
   width: 100%;
   height: 100%;
 }
-
+.welcome__title {
+  font-size: 18px;
+  display: inline-block;
+  margin-bottom: 50px;
+  text-align: center;
+}
 @keyframes welcome {
   0%,
   20%,

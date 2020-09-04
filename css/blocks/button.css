@@ -1,9 +1,7 @@
 .btn {
   display: inline-block;
-  background-color: #f5170e;
   border-radius: 35px;
   padding: 16px 35px;
-  color: #ffffff;
   border: 1px solid transparent;
   font-size: 14px;
   font-weight: 700;
@@ -28,4 +26,23 @@
 .btn--color-red:hover {
   background: #da0100;
   box-shadow: 0px 2px 4px rgba(218, 1, 0, 0.3);
+}
+.btn--color-grey {
+  background-color: #8e8e8e;
+  color: #ffffff;
+  transition: 0.4s;
+}
+.btn--color-grey:hover {
+  background: #2b2b2b;
+  box-shadow: 0px 2px 4px rgba(218, 1, 0, 0.3);
+}
+.form__btn {
+  margin-right: 20px;
+}
+.form__btn:last-child {
+  margin-right: 0;
+}
+.btn--welcome {
+  width: 170px;
+  height: 55px;
 }

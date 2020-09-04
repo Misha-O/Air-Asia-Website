@@ -17,7 +17,13 @@
 }
 /* index style ends */
 .header-services {
-  margin-bottom: 16px;
+  margin-bottom: 5px;
+}
+.top-line--reviews {
+  margin-bottom: 103px;
+}
+.header-reviews {
+  margin-bottom: 2px;
 }
 .header__col {
   display: flex;
