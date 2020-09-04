@@ -9,9 +9,9 @@
   </head>
   <body>
     <div class="wrapper">
-      <section class="top-line">
+      <section class="top-line top-line--reviews">
         <div class="container top-line-container">
-          <header class="header header-services">
+          <header class="header header-reviews">
               <div class="header__col">
                 <a href="main.html" class="logo">
                   <img src="images/Air_Asia-logo.png" alt="Air Asia Logo" class="logo__img" />
@@ -45,7 +45,7 @@
                 </address>
               </div>
           </header>
-          <h1 class="services__title">Отзывы</h1>
+          <h1 class="page__title">Отзывы</h1>
           <nav class="breadcrumbs">
             <ul class="breadcrumbs__list">
               <li class="breadcrumbs__item"><a href="/" class="breadcrumbs__link">Главная</a></li>
@@ -54,80 +54,97 @@
           </nav>
         </div>    
       </section> 
-      <main class="page-content">
+      <main class="page-content page-content--reviews">
         <div class="container">
           <ul class="reviews__list">
-            <li class="reviews__item">
-              <div class="reviews__block">
-                <div class="reviews__img"><img src="images/content/reviews/ginger.jpg" alt="" class="reviews__img-block"></div>
-                <div class="reviews__name">
-                  <h2 class="reviews__title">Иван Петрович</h2>
-                  <img src="images/icons/socials/vk-blue.png" alt="Vkontakte icon" class="reviews__icn">
-                  <div class="reviews__location">Водопад Янг-бей</div>
+            <li class="reviews__item review">
+              <div class="reviews__header">
+                <div class="reviews__photo">
+                  <div class="avatar">
+                    <img src="images/content/reviews/ginger.jpg" alt="User photo" class="reviews__img-block">
+                  </div>
                 </div>
+                <div class="reviews__userdata">
+                  <a href="" class="reviews__user">Иван Петрович</a>
+                  <ul class="reviews__tags">
+                    <li class="reviews__tags--item tag tag--bg--green">Водопад Янг-бей</li>
+                  </ul>
               </div>
-                <div class="reviews__block text">
-                    <h2 class="reviews__subtitle">Крутой поход на водопады</h2>
-                <div class="reviews__text">
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem, vel. Alias, numquam est voluptas, pariatur ipsum laudantium aliquam dignissimos iure vero necessitatibus deserunt, possimus quod!</p>
-                </div></div>
-                <div class="reviews__block"><time class="reviews__date">
-                    <div class="reviews__month">Ноябрь 2019</div>
-                  </time></div>
+              </div>
+              <div class="reviews__content">
+                <h3 class="reviews__title">Крутой поход на водопады</h3>
+                <div class="reviews__content--text">
+                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem, vel. Alias, numquam est voluptas, pariatur ipsum laudantium aliquam dignissimos iure vero necessitatibus deserunt, possimus quod! Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia placeat nobis labore assumenda, porro magni architecto corporis consequuntur, ipsa saepe tenetur nisi unde ?</p>
+              </div>
+              <time class="reviews__date">Ноябрь 2019</time>
+              </div>
             </li>
-            <li class="reviews__item">
-              <div class="reviews__block">
-                <div class="reviews__img"><img src="images/content/reviews/girl.jpg" alt="" class="reviews__img-block"></div>
-                <div class="reviews__name">
-                  <h2 class="reviews__title">Екатерина Жмых</h2>
-                  <img src="images/icons/socials/vk-blue.png" alt="Vkontakte icon" class="reviews__icn">
-                  <div class="reviews__location">Тур на Остров обезьян</div>
+            <li class="reviews__item review">
+              <div class="reviews__header">
+                <div class="reviews__photo">
+                  <div class="avatar">
+                    <img src="images/content/reviews/liza.jpg" alt="User photo" class="reviews__img-block">
+                  </div>
                 </div>
+                <div class="reviews__userdata">
+                  <a href="" class="reviews__user">Лиза Сидорова</a>
+                  <ul class="reviews__tags">
+                    <li class="reviews__tags--item tag tag--bg--green">Тур по Тайланду</li>
+                  </ul>
               </div>
-                <div class="reviews__block text">
-                    <h2 class="reviews__subtitle">Очень понравился тур на остров обезьян</h2>
-                <div class="reviews__text">
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem, vel. Alias, numquam est voluptas, pariatur ipsum laudantium aliquam dignissimos iure vero necessitatibus deserunt, possimus quod!</p>
-                </div></div>
-                <div class="reviews__block"><time class="reviews__date">
-                    <div class="reviews__month">Ноябрь 2019</div>
-                  </time></div>
+              </div>
+              <div class="reviews__content">
+                <h3 class="reviews__title">Интерестный тур по Таю.</h3>
+                <div class="reviews__content--text">
+                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem, vel. Alias, numquam est voluptas, pariatur ipsum laudantium aliquam dignissimos iure vero necessitatibus deserunt, possimus quod! Lorem, ipsum dolor sit amet consectetur adipisicing elit. Maiores blanditiis quos numquam nemo ex doloremque molestiae necessitatibus quam iusto repellendus? lorem15</p>
+              </div>
+              <time class="reviews__date">Ноябрь 2019</time>
+              </div>
             </li>
-            <li class="reviews__item">
-              <div class="reviews__block">
-                <div class="reviews__img"><img src="images/content/reviews/liza.jpg" alt="" class="reviews__img-block"></div>
-                <div class="reviews__name">
-                  <h2 class="reviews__title">Лиза Сидорова</h2>
-                  <img src="images/icons/socials/vk-blue.png" alt="Vkontakte icon" class="reviews__icn">
-                  <div class="reviews__location">Тур по Тайланду</div>
+            <li class="reviews__item review">
+              <div class="reviews__header">
+                <div class="reviews__photo">
+                  <div class="avatar">
+                    <img src="images/content/reviews/girl.jpg" alt="User photo" class="reviews__img-block">
+                  </div>
                 </div>
+                <div class="reviews__userdata">
+                  <a href="" class="reviews__user">Екатерина Жмых</a>
+                  <ul class="reviews__tags">
+                    <li class="reviews__tags--item tag tag--bg--green">Тур на Остров обезьян</li>
+                  </ul>
               </div>
-                <div class="reviews__block text">
-                    <h2 class="reviews__subtitle">Интерестный тур по Таю.</h2>
-                <div class="reviews__text">
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem, vel. Alias, numquam est voluptas, pariatur ipsum laudantium aliquam dignissimos iure vero necessitatibus deserunt, possimus quod!</p>
-                </div></div>
-                <div class="reviews__block"><time class="reviews__date">
-                    <div class="reviews__month">Ноябрь 2019</div>
-                  </time></div>
+              </div>
+              <div class="reviews__content">
+                <h3 class="reviews__title">Очень понравился тур на остров обезьян.</h3>
+                <div class="reviews__content--text">
+                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem, vel. Alias, numquam est voluptas, pariatur ipsum laudantium aliquam dignissimos iure vero necessitatibus deserunt, possimus quod! Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem, vel. Alias, numquam est voluptas, pariatur ipsum laudantium aliquam dignissimos iure vero necessitatibus deserunt, possimus quod! Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam, eos? Lorem ipsum dolor sit amet consectetur adipisicing elit. In reiciendis hic odio mollitia ducimus blanditiis.</p>
+              </div>
+              <time class="reviews__date">Ноябрь 2019</time>
+              </div>
             </li>
-            <li class="reviews__item">
-              <div class="reviews__block">
-                <div class="reviews__img"><img src="images/content/reviews/guy.jpg" alt="" class="reviews__img-block"></div>
-                <div class="reviews__name">
-                  <h2 class="reviews__title">Антон Игоревич</h2>
-                  <img src="images/icons/socials/vk-blue.png" alt="Vkontakte icon" class="reviews__icn">
-                  <div class="reviews__location">Тур по Индонезии</div>
+            
+            <li class="reviews__item review">
+              <div class="reviews__header">
+                <div class="reviews__photo">
+                  <div class="avatar">
+                    <img src="images/content/reviews/guy.jpg" alt="User photo" class="reviews__img-block">
+                  </div>
                 </div>
+                <div class="reviews__userdata">
+                  <a href="" class="reviews__user">Антон Игоревич</a>
+                  <ul class="reviews__tags">
+                    <li class="reviews__tags--item tag tag--bg--green">Тур по Индонезии</li>
+                  </ul>
               </div>
-                <div class="reviews__block text">
-                    <h2 class="reviews__subtitle">Для первого раза выбрал тур по Индонезии. И не пожалел!</h2>
-                <div class="reviews__text">
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem, vel. Alias, numquam est voluptas, pariatur ipsum laudantium aliquam dignissimos iure vero necessitatibus deserunt, possimus quod!</p>
-                </div></div>
-                <div class="reviews__block"><time class="reviews__date">
-                    <div class="reviews__month">Ноябрь 2019</div>
-                  </time></div>
+              </div>
+              <div class="reviews__content">
+                <h3 class="reviews__title">Для первого раза выбрал тур по Индонезии. И не пожалел!</h3>
+                <div class="reviews__content--text">
+                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem, vel. Alias, numquam est voluptas, pariatur ipsum laudantium aliquam dignissimos iure vero necessitatibus deserunt, possimus quod! Lorem ipsum dolor sit, amet consectetur adipisicing elit. Recusandae, quas similique! Molestias perspiciatis mollitia animi vel minima placeat beatae! Ullam! Lorem, ipsum dolor sit amet consectetur adipisicing.</p>
+              </div>
+              <time class="reviews__date">Ноябрь 2019</time>
+              </div>
             </li>
           </ul>
           <div class="paginator paginator--theme--dark">
@@ -161,24 +178,78 @@
           </div>
         </div>
       </main>
-      <section class="banner">
+      <section class="separator">
         <div class="container">
-          <div class="banner bottom--content">
-            <h2 class="banner__title">Подберем тур по вашим пожеланиям</h2>
-            <div class="banner__img"><img src="images/decor/couple.png" alt="" class="banner__img-block"></div>
+          <div class="separator__content">
+            <h2 class="separator__title">Подберем тур по вашим пожеланиям</h2>
           </div>
         </div>
       </section>
-      <div class="container form">
-        <h2 class="form__title">Оставте отзыв</h2>
-        <div class="form">
-          <form action="" class="form" class="form__field">
-            <input type="text" width="550px" placeholder="Ваше Имя">
-            <input type="text" placeholder="Ссылка на профиль VK">
-            <textarea name="" id="" cols="30" rows="10" placeholder="Напишите свой честный отзыв"></textarea>
+      <section class="inner-section--bg--grey">
+        <div class="container">
+          <h2 class="inner-section__title">Оставте отзыв</h2>
+          <form action="" class="form form--position">
+            <div class="form__row">
+              <input class="form__input" placeholder="Ваше имя" type="text">
+              <input class="form__input" placeholder="Ссылка на профиль VK" type="text">
+            </div>
+            <div class="form__row">
+              <textarea class="form__input form__input--textarea" name="" id="" cols="30" rows="10" placeholder="Напишите свой честный отзыв ;)"></textarea>
+            </div>
+            <div class="form__controls">
+              <div class="form__controls--title">Какими услугами компании пользуетесь?</div>
+              <ul class="controls__list">
+                <li class="controls__item">
+                  <label class="controls__elem">
+                    <input class="controls__checkbox" type="checkbox" name="" id="">
+                    <div class="tag controls__tag">Остров обезьян</div>
+                  </label>
+                </li>
+                <li class="controls__item">
+                  <label class="controls__elem">
+                    <input class="controls__checkbox" type="checkbox" name="" id="">
+                    <div class="tag controls__tag">Тур по Тайланду</div>
+                  </label>
+                </li>
+                <li class="controls__item">
+                  <label class="controls__elem">
+                    <input class="controls__checkbox" type="checkbox" name="" id="">
+                    <div class="tag controls__tag">Водопад Янг-бей</div>
+                  </label>
+                </li>
+                <li class="controls__item">
+                  <label class="controls__elem">
+                    <input class="controls__checkbox" type="checkbox" name="" id="">
+                    <div class="tag controls__tag">Тур по Индонезии</div>
+                  </label>
+                </li>
+                <li class="controls__item">
+                  <label class="controls__elem">
+                    <input class="controls__checkbox" type="checkbox" name="" id="">
+                    <div class="tag controls__tag">Никакими</div>
+                  </label>
+                </li>
+                <li class="controls__item">
+                  <label class="controls__elem">
+                    <input class="controls__checkbox" type="checkbox" name="" id="">
+                    <div class="tag controls__tag">Тур по Бали</div>
+                  </label>
+                </li>
+                <li class="controls__item">
+                  <label class="controls__elem">
+                    <input class="controls__checkbox" type="checkbox" name="" id="">
+                    <div class="tag controls__tag">Другое</div>
+                  </label>
+                </li>
+              </ul>
+            </div>
+            <div class="form__btn">
+              <button class="btn form__btn btn--color-grey" type="reset">Очистить</button>
+              <button class="btn form__btn btn--color-red" type="submit">Отправить</button>
+            </div>
           </form>
         </div>
-      </div>
+      </section>
       <footer class="footer">
         <div class="container inner-footer__container">
           <div class="footer__content">
