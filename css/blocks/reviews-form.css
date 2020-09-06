@@ -50,6 +50,7 @@ textarea:focus {
 }
 .form__input--textarea {
   height: 232px;
+  resize: none;
 }
 .controls__list {
   display: flex;
