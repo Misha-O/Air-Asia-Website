@@ -71,6 +71,7 @@ textarea:focus {
 /* make bg change on click to next class tag */
 .controls__checkbox:checked ~ .controls__tag {
   background: #b9eae4;
+  transition: 0.4s;
 }
 .controls__checkbox {
   display: none;
