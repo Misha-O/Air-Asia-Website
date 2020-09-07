@@ -1,6 +1,7 @@
 .separator {
   background: url(../../images/decor/couple.png) right 26% bottom no-repeat,
-    url(../../images/bg/middleline.jpg) left top repeat;
+    url(../../images/bg/middleline.jpg) left top no-repeat;
+  background-position: center;
   min-height: 360px;
   display: flex;
   flex-direction: column;
